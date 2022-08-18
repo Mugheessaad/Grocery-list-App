@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grocery.css">
+    <script src="https://kit.fontawesome.com/a5fa9ff3d2.js" crossorigin="anonymous"></script>
+
+</head>
+<body onload="oNLOAD()">
+    <header>
+    <div><i class="fa-solid fa-cart-shopping"></i></div>
+    <div id="text"><h1>Grocery Store</h1></div>
+    <div id="login">
+        <div><i class="fa-brands fa-google"></i></div>
+        <div><i class="fa-solid fa-users-between-lines"></i></div>
+    </div>
+    </header>
+    <div id="maindiv">
+        <div id="searchBar">
+            <div id="inputbutton">
+                <input type="text" id="input" placeholder="Add Something Here" onfocus="oNFOCUS(this)" onblur="oNBLUR(this)">
+                <button type="submit" id="btn" ><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div id="listdiv">
+            <ul id="list">
+                <!-- <li>Hello</li> -->
+            </ul>
+            </div>
+        </div>
+    </div> 
+    <footer><h1>Made by Mughees Saad</h1></footer>  
+<script src="grocery.js"></script>  
+</body>
+</html>

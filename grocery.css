@@ -1,0 +1,165 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(136, 135, 135);
+    color: white;
+}
+header i{
+    font-size: 25px;
+    margin: 10px;
+}
+header h1{
+    margin: 0px;
+}
+#login{
+    display: flex;
+    justify-content: space-between;
+}
+#maindiv{
+        background-image: url("images/photo-1604719312566-8912e9227c6a.avif");
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#searchBar{
+    width: 70%;
+    background-color: rgb(177, 176, 176);
+    /*  */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 92%;
+    border-radius: 10px;
+}
+#inputbutton{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    padding: 5px;
+    width: 100%;
+}
+#inputbutton i{
+    display: flex;
+}
+#inputbutton button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inputbutton button:hover{
+    background-color:  rgb(100, 99, 99);
+    color: white;
+    border: 3px solid rgb(106, 106, 106);
+}
+#inputbutton input{
+    width: 62%; 
+    padding: 0px;
+}
+#listdiv{
+    width: 85%;
+    background-color: rgb(212, 198, 198);
+    overflow: overlay;
+    border-radius: 10px;
+}
+#list{
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+}
+#list li{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(179, 124, 124);
+   font-size:30px;
+   color: white;
+   border-radius: 5px;
+
+}
+#list li:nth-child(odd){
+    background-color: rgb(171, 137, 137);
+}
+.settingdiv{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 5px;
+    width: 20%;
+}
+.edit{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: rgb(113, 190, 204);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit:hover{
+    background-color:rgb(16, 207, 240);
+    color: white;
+}
+.del{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    background-color: rgb(247, 174, 174);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.del:hover{
+    background-color: rgb(255, 2, 2);
+}
+#special{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 4vh;
+}
+#special button{
+    border-style: none;
+    width: 20%;
+}
+#special button:hover{
+    background-color: rgb(9, 156, 46);
+    cursor: pointer;
+}
+#special input{
+    width: 79%;
+}
+footer{
+    background-color: rgb(135, 136, 135);
+    height: 20vh;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width : 400px) {
+    header{
+        flex-direction: column;
+    }
+    #text{
+        order: -1;
+    }
+}
